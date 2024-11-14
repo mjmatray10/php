@@ -2,7 +2,7 @@
 function selectBrands() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT brand_id, brand_name, brand_origin FROM `brand`");
+        $stmt = $conn->prepare("SELECT brand_id, brand_name, brand_origin FROM brand");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
