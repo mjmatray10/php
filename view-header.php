@@ -20,10 +20,10 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="coaches.php">Coaches</a>
+          <a class="nav-link" href="brands.php">Brands</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="universities.php">Universities</a>
+          <a class="nav-link" href="bc.php">Baitcast Reels</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="coaches-with-universities.php">Coaches with Universities</a>
