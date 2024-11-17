@@ -80,15 +80,19 @@
 <body>
 
       <div class="content-container">
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px;">
-    <div>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;">
+    <div style="flex: 1; text-align: left;">
         <h1>Dealers</h1>
     </div>
-    <div>
+
+    <div style="flex: 1; text-align: center;">
         <a href="maps.php" class="animated-button">Find on Map</a>
     </div>
-    <div></div>
+
+    <div style="flex: 1;"></div>
 </div>
+
+<style>
   <table id="dealer-records" class="display">
     <thead>
       <tr>
