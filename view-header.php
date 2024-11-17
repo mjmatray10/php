@@ -57,7 +57,7 @@
                     <a class="nav-link" href="brands.php">Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="bc.php">Baitcast Reels</a>
+                    <a class="nav-link" href="dealers.php">Dealers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="spinning.php">Spinning Reels</a>
