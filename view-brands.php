@@ -19,9 +19,9 @@ $pageTitle = "Brands";
                         <th>ID</th>
                         <th>Name</th>
                         <th>Origin</th>
-                        <th>CEO</th>
-                        <th>Edit</th>
-                        <th>Delete</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,13 +33,13 @@ $pageTitle = "Brands";
                             <td><?= htmlspecialchars($brand['brand_name']); ?></td>
                             <td><?= htmlspecialchars($brand['brand_origin']); ?></td>
                             <td><a href="brands-by-ceo.php?id=<?= htmlspecialchars($brand['brand_id']); ?>">CEO</a></td>
-                            <td style="display: flex; align-items: center; justify-content: center;">
+                            <td>
                                 <?php
                                 include "view-brands-editform.php";
                                 ?>
                             </td>
-                            <td style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 0;">
-                                <form method="post" action="" style="display: flex; align-items: center; justify-content: center;">
+                            <td>
+                                <form method="post" action="">
                                     <input type="hidden" name="bid" value="<?= htmlspecialchars($brand['brand_id']); ?>">
                                     <input type="hidden" name="actionType" value="Delete">
                                     <button type="submit" class="btn btn-danger btn-sm" style="width: 40px; height: 40px;" onclick="return confirm('Are you sure?');">
