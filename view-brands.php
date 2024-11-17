@@ -1,6 +1,5 @@
 <?php
 $pageTitle = "Brands";
-include "view-header.php";
 ?>
 <body>
 <div class="content-container">
