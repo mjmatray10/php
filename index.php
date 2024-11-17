@@ -31,8 +31,8 @@ include "view-header.php";
   <div class="content-container">
     <h1>MIS-4013 Final Project</h1>
     <p>Welcome to the Bar G Tackle Company!</p>
-    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 600px;">
-      <img src="logo.png">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 700px;">
+      <img src="logo.png" style="width:600px;">
     </div>
   </div>
 </body>
