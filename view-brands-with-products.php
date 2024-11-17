@@ -46,10 +46,6 @@ while ($brand = $brands->fetch_assoc()) {
       ?>
       </ul>
       </p>
-      <?php
-        $dealers = selectBrandsByProducts($brand['brand_id']);
-        while ($product = $products->fetch_assoc()) {
-      ?>
       <p class="card-text"><small class="text-body-secondary">Brand Origin: <?php echo $brand['brand_origin']; ?></small></p>
     </div>
   </div>
