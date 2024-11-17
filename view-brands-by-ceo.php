@@ -11,7 +11,6 @@ $pageTitle = "CEO of Brand";
                 <th>ID</th>
                 <th>Name</th>
                 <th>Age</th>
-                <th></th>
             </tr>
             </thead>
             <tbody>
