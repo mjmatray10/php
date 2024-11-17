@@ -12,9 +12,9 @@
 <div class="content-container">
   <h1>Dealers</h1>
 
-  <table id="dealer-records" class="display">
+  <table id="dealer-records" class="display" style="color: black;">
     <thead>
-      <tr>
+      <tr style="color: black;">
         <th>Dealer Name</th>
         <th>Oklahoma Location</th>
       </tr>
