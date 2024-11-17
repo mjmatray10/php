@@ -16,7 +16,7 @@ $pageTitle = "CEO of Brand";
             </thead>
             <tbody>
 <?php
-while ($ceo = $ceos->fetch_assoc()) {
+while ($ceo = $ceo->fetch_assoc()) {
   ?>
   <tr>
     <td><?php echo $ceo['ceo_id']; ?></td>
