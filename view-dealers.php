@@ -11,7 +11,11 @@
     #dealer-records {
       color: black;
     }
-    #dealer-records th, #dealer-records td {
+    #dealer-records th {
+      color: white;
+    }
+    
+    #dealer-records td {
       color: black;
     }
 
@@ -19,26 +23,32 @@
     .dataTables_wrapper .dataTables_paginate,
     .dataTables_wrapper .dataTables_filter,
     .dataTables_wrapper .dataTables_length {
-      color: black !important;
+      color: white !important;
     }
 
     .dataTables_wrapper .paginate_button {
-      color: black !important;
+      color: white !important;
       border: 1px solid #ddd;
     }
 
     .dataTables_wrapper .dataTables_filter input {
-      color: black !important;
+      color: white !important;
     }
 
     .dataTables_wrapper .dataTables_length select {
-      color: black !important;
+      color: white !important;
     }
 
     .dataTables_wrapper th.sorting_asc::after,
     .dataTables_wrapper th.sorting_desc::after {
-      color: black !important;
+      color: white !important;
     }
+
+    .dataTables_wrapper .paginate_button.previous,
+    .dataTables_wrapper .paginate_button.next {
+      color: white !important;
+    }
+    
   </style>
 </head>
 <body>
