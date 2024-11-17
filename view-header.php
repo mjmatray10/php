@@ -29,11 +29,11 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       }
       .navbar {
-        background-color: rgba(52, 58, 64, 0.9);
+        background-color: rgba(52, 58, 64, 0.85) !important;
         border-radius: 0; 
       }
       .navbar-brand, .nav-link {
-        color: #ffffff;
+        color: #ffffff !important;
         font-weight: 500;
         transition: color 0.3s ease;
       }
