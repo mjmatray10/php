@@ -30,7 +30,7 @@ include "view-header.php";
 <body>
   <div class="content-container">
     <h1>MIS-4013 Final Project</h1>
-    <p>Welcome to the Bar G Tackle Co!</p>
+    <p>Welcome to the Bar G Tackle Company!</p>
     <div>
       <img src="logo.png" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 700px;">
     </div>
