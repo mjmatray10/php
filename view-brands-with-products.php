@@ -8,13 +8,12 @@
     </div>
   </div>
 
- <div class="card-group">
-  <?php
-  while ($brand = $brands->fetch_assoc()) {
-  ?>
-    <div class="card">
-      <div class="card-body d-flex align-items-center justify-content-between">
-        <div>
+  <div class="card-group">
+    <?php
+    while ($brand = $brands->fetch_assoc()) {
+    ?>
+      <div class="card">
+        <div class="card-body">
           <h5 class="card-title"><?php echo $brand['brand_name']; ?></h5>
           <p class="card-text">
             <ul class="list-group">
@@ -22,12 +21,12 @@
               $products = selectBrandsByProducts($brand['brand_id']);
               while ($product = $products->fetch_assoc()) {
               ?>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <li class="list-group-item">
                   <?php echo $product['product_name']; ?> - 
                   <?php echo $product['product_category']; ?> - 
                   <?php echo $product['product_gr']; ?>
 
-                  <div class="d-flex align-items-center">
+                  <div class="d-flex justify-content-end">
                     <?php include "view-brands-with-products-editform.php"; ?> 
                     <form method="post" action="" class="ms-2">
                       <input type="hidden" name="pid" value="<?php echo $product['product_id']; ?>">
@@ -46,13 +45,11 @@
               ?>
             </ul>
           </p>
+          <p class="card-text"><small class="text-body-secondary">Brand Origin: <?php echo $brand['brand_origin']; ?></small></p>
         </div>
-        <small class="text-body-secondary">Brand Origin: <?php echo $brand['brand_origin']; ?></small>
       </div>
-    </div>
-  <?php
-  }
-  ?>
+    <?php
+    }
+    ?>
+  </div>
 </div>
-
-
