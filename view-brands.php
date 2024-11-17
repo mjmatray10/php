@@ -7,7 +7,7 @@ $pageTitle = "Brands";
     <div class="table-responsive">
         <table class="table table-striped">
             <thead>
-            <tr>
+            <tr style="color: white;">
                 <th>ID</th>
                 <th>Name</th>
                 <th>Origin</th>
