@@ -22,7 +22,7 @@ $pageTitle = "Brands";
                     <td><?= htmlspecialchars($brand['brand_id']); ?></td>
                     <td><?= htmlspecialchars($brand['brand_name']); ?></td>
                     <td><?= htmlspecialchars($brand['brand_origin']); ?></td>
-                    <td><a href="brands-by-stores.php?id=<?= htmlspecialchars($brand['brand_id']); ?>">Stores</a></td>
+                    <td><a href="brands-by-ceo.php?id=<?= htmlspecialchars($brand['brand_id']); ?>">CEO</a></td>
                 </tr>
                 <?php
             }
