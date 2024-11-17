@@ -24,7 +24,6 @@ include "view-header.php";
         margin: 20px auto;
         color: #f8f9fa;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        opacity: 50%;
       }
   </style>
 </head>
