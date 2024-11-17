@@ -5,7 +5,6 @@
         justify-content: center;
         gap: 15px;
         padding: 20px;
-        background-color: rgba(61, 67, 73, 0.7);
         border-radius: 0 0 10px 10px;
         position: absolute;
         bottom: 0;
@@ -18,8 +17,6 @@
         display: inline-block;
         width: 50px;
         height: 50px;
-        background-color: #ffffff;
-        color: #3d4349;
         border-radius: 50%;
         text-align: center;
         line-height: 50px;
@@ -27,8 +24,6 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       }
       .circle-button:hover {
-        background-color: #ffc107;
-        color: #ffffff;
         transform: scale(1.1);
       }
       .fa-fw {
