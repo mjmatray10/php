@@ -19,7 +19,7 @@ while ($brand = $brands->fetch_assoc()) {
       <p class="card-text">
       <ul class="list-group">
       <?php
-        $product = selectBrandsByProduct($coach['coach_id']);
+        $products = selectBrandsByProduct($brand['brand_id']);
         while ($product = $products->fetch_assoc()) {
       ?>
         <li class="list-group-item">
