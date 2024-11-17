@@ -38,15 +38,17 @@ $pageTitle = "Brands";
         include "view-brands-editform.php";
         ?>
     </td>
-            <tr style="vertical-align: middle;">
+           <tr style="vertical-align: middle;">
     <td><?= htmlspecialchars($brand['brand_id']); ?></td>
     <td><?= htmlspecialchars($brand['brand_name']); ?></td>
     <td><?= htmlspecialchars($brand['brand_origin']); ?></td>
     <td><a href="brands-by-ceo.php?id=<?= htmlspecialchars($brand['brand_id']); ?>">CEO</a></td>
-    <td style="display: flex; justify-content: center; align-items: center;">
-        <?php include "view-brands-editform.php"; ?>
+    <td style="display: flex; align-items: center; justify-content: center;">
+        <?php
+        include "view-brands-editform.php";
+        ?>
     </td>
-    <td style="display: flex; justify-content: center; align-items: center;">
+    <td style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 0;">
         <form method="post" action="" style="display: flex; align-items: center; justify-content: center;">
             <input type="hidden" name="bid" value="<?= htmlspecialchars($brand['brand_id']); ?>">
             <input type="hidden" name="actionType" value="Delete">
