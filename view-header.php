@@ -13,7 +13,7 @@
         padding: 0;
       }
       .content-container {
-        background-color: rgba(61, 67, 73, 0.9);
+        background-color: rgba(61, 67, 73, 0.7);
         padding: 20px;
         border-radius: 10px;
         max-width: 1200px;
@@ -29,7 +29,7 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       }
       .navbar {
-        background-color: rgba(52, 58, 64, 0.85) !important;
+        background-color: rgba(61, 67, 73, 0.7) !important;
         border-radius: 0; 
       }
       .navbar-brand, .nav-link {
