@@ -20,6 +20,15 @@
         color: #f8f9fa;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
+      .content-container2 {
+        background-color: lightgray ;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 1200px;
+        margin: 20px auto;
+        color: #f8f9fa;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
       .navbar {
         background-color: #343a40;
       }
