@@ -38,7 +38,7 @@ $pageTitle = "CEOs";
                                 include "view-ceos-editform.php";
                                 ?>
                             </td>
-                            <td class="d-flex align-items-center justify-content-center">
+                            <td style="display: flex; align-items: center; justify-content: center;">
                                 <form method="post" action="">
                                     <input type="hidden" name="cid" value="<?= htmlspecialchars($ceo['ceo_id']); ?>">
                                     <input type="hidden" name="actionType" value="Delete">
