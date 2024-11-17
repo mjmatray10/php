@@ -9,25 +9,25 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="newCatalogModalLabel">New Catalog</h1>
+        <h1 class="modal-title fs-5" id="newCatalogModalLabel" style="color: black;">New Catalog</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form method="post" action="">
           <div class="mb-3">
-            <label for="nam" class="form-label">Product Name</label>
+            <label for="nam" class="form-label" style="color: black;">Product Name</label>
             <input type="text" class="form-control" id="nam" name = "nam">
           </div>
           <div class="mb-3">
-            <label for="cat" class="form-label">Product Category</label>
+            <label for="cat" class="form-label" style="color: black;">Product Category</label>
             <input type="text" class="form-control" id="cat" name = "cat">
           </div>
           <div class="mb-3">
-            <label for="gr" class="form-label">Product Gear Ratio</label>
+            <label for="gr" class="form-label" style="color: black;">Product Gear Ratio</label>
             <input type="text" class="form-control" id="gr" name = "gr">
           </div>
           <div class="mb-3">
-            <label for="bid" class="form-label">Brand ID</label>
+            <label for="bid" class="form-label" style="color: black;">Brand ID</label>
 <?php
 $brandList = selectBrandsForInput();
 $selectedBrand = 0;
