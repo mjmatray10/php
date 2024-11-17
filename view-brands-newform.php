@@ -9,25 +9,26 @@
 <!-- Modal -->
 <div class="modal fade" id="newBrandModal" tabindex="-1" aria-labelledby="newBrandModalLabel" aria-hidden="true" style="color: black;">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="newBrandModalLabel" style="color: black;>New Brand</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form method="post" action="">
-            <div class="mb-3">
-              <label for="bName" class="form-label" style="color: black;>Brand Name</label>
-              <input type="text" class="form-control" id="bName" name = "bName">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="newBrandModalLabel" style="color: black;">New Brand</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="mb-3">
-              <label for="bOrigin" class="form-label" style="color: black;>Brand Origin</label>
-              <input type="text" class="form-control" id="bOrigin" name = "bOrigin">
+            <div class="modal-body">
+                <form method="post" action="">
+                    <div class="mb-3">
+                        <label for="bName" class="form-label" style="color: black;">Brand Name</label>
+                        <input type="text" class="form-control" id="bName" name="bName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="bOrigin" class="form-label" style="color: black;">Brand Origin</label>
+                        <input type="text" class="form-control" id="bOrigin" name="bOrigin">
+                    </div>
+                    <input type="hidden" name="actionType" value="Add">
+                    <button type="submit" class="btn btn-primary" style="color: black;">Save</button>
+                </form>
             </div>
-              <input type = "hidden" name = "actionType" value = "Add">
-            <button type="submit" class="btn btn-primary" style="color: black; >Save</button>
-          </form>
         </div>
-      </div>
     </div>
-  </div>
+</div>
+
