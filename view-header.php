@@ -5,23 +5,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
       body {
-        background-color: #343a40;
+        background: url('outdoor.png') no-repeat center center fixed;
+        background-size: cover;
         color: #ffffff;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
       }
       .content-container {
-        background-color: #3d4349;
-        padding: 20px;
-        border-radius: 10px;
-        max-width: 1200px;
-        margin: 20px auto;
-        color: #f8f9fa;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      }
-      .content-container2 {
-        background-color: lightgray ;
+        background-color: rgba(61, 67, 73, 0.9);
         padding: 20px;
         border-radius: 10px;
         max-width: 1200px;
@@ -30,7 +22,7 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
       .navbar {
-        background-color: #343a40;
+        background-color: rgba(52, 58, 64, 0.8); /* Slight transparency */
       }
       .navbar-brand, .nav-link {
         color: #ffffff;
