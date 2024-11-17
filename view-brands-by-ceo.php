@@ -1,14 +1,20 @@
-<h1>Brands by CEO</h1>
-<div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Age</th>
-      </tr>
-    </thead>
-    <tbody>
+<?php
+$pageTitle = "CEO of Brand";
+?>
+<body>
+<div class="content-container">
+    <h1>CEO of Brand</h1>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr style="color: white;">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
 <?php
 while ($ceo = $ceos->fetch_assoc()) {
   ?>
