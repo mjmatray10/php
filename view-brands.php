@@ -2,14 +2,15 @@
 $pageTitle = "Brands";
 ?>
 <body>
-    <div class="content-container">
+    <div class="content-container d-flex">
         <h1>Brands</h1>
         
-        <div class="col-auto">
+        <div class="col-auto ml-auto">
             <?php
             include "view-brands-newform.php";
             ?>
         </div>
+    </br>
         
         <div class="table-responsive">
             <table class="table table-striped">
