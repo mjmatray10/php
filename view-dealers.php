@@ -14,11 +14,36 @@
     #dealer-records th, #dealer-records td {
       color: black;
     }
+
+    .dataTables_wrapper .dataTables_info,
+    .dataTables_wrapper .dataTables_paginate,
+    .dataTables_wrapper .dataTables_filter,
+    .dataTables_wrapper .dataTables_length {
+      color: black !important;
+    }
+
+    .dataTables_wrapper .paginate_button {
+      color: black !important;
+      border: 1px solid #ddd;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+      color: black !important;
+    }
+
+    .dataTables_wrapper .dataTables_length select {
+      color: black !important;
+    }
+
+    .dataTables_wrapper th.sorting_asc::after,
+    .dataTables_wrapper th.sorting_desc::after {
+      color: black !important;
+    }
   </style>
 </head>
 <body>
 
-<div class="content-container2">
+<div class="content-container">
   <h1>Dealers</h1>
 
   <table id="dealer-records" class="display">
@@ -44,8 +69,7 @@
 
 <script>
   $(document).ready(function() {
-    $('#dealer-records').DataTable({
-    });
+    $('#dealer-records').DataTable();
   });
 </script>
 
