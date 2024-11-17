@@ -4,49 +4,51 @@
     <title><?= htmlspecialchars($pageTitle) ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-      body {
-        background: url('outdoor.png') no-repeat center center fixed;
-        background-size: cover;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .content-container {
-        background-color: rgba(61, 67, 73, 0.7);
-        padding: 20px;
-        border-radius: 10px;
-        max-width: 1200px;
-        margin: 20px auto;
-        color: #f8f9fa;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      }
-      .navbar-container {
-        max-width: 1200px;
-        margin: 20px auto; 
-        border-radius: 10px; 
-        overflow: hidden;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-      }
-      .navbar {
-        background-color: rgba(61, 67, 73, 0.7) !important;
-        border-radius: 0; 
-      }
-      .navbar-brand, .nav-link {
-        color: #ffffff !important;
-        font-weight: 500;
-        transition: color 0.3s ease;
-      }
-      .nav-link:hover, .nav-link.active {
-        color: #ffc107;
-      }
-      .navbar-toggler {
-        border-color: #ffffff;
-      }
-      .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-      }
-    </style>
+  body {
+    background: url('outdoor.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .content-container {
+    background-color: rgba(61, 67, 73, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    color: #f8f9fa;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-container {
+    max-width: 1200px;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .navbar {
+    background-color: rgba(61, 67, 73, 0.7) !important;
+    border-radius: 0; 
+  }
+  .navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  .nav-link:hover, .nav-link.active {
+    color: #ffc107;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+  }
+  .navbar-toggler {
+    border-color: #ffffff;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+</style>
 </head>
 <div class="navbar-container">
   <nav class="navbar navbar-expand-lg">
