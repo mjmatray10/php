@@ -48,15 +48,45 @@
     .dataTables_wrapper .paginate_button.next {
       color: white !important;
     }
+
+    .animated-button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #28a745;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 25px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .animated-button:hover {
+      transform: translateY(-5px);
+      background-color: #218838;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .animated-button:active {
+      transform: translateY(-2px);
+      background-color: #1e7e34;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
     
   </style>
 </head>
 <body>
 
       <div class="content-container">
-<div style="display: flex; flex-direction: row;">
-    <div><h1>Dealers</h1></div>
-    <div></div>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px;">
+    <div>
+        <h1>Dealers</h1>
+    </div>
+    <div>
+        <a href="maps.php" class="animated-button">Find on Map</a>
+    </div>
     <div></div>
 </div>
   <table id="dealer-records" class="display">
