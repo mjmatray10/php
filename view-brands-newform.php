@@ -7,7 +7,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="newBrandModal" tabindex="-1" aria-labelledby="newBrandModalLabel" aria-hidden="true" style="color: black;">
+<div class="modal fade" id="newBrandModal" tabindex="-1" aria-labelledby="newBrandModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -25,7 +25,7 @@
                         <input type="text" class="form-control" id="bOrigin" name="bOrigin">
                     </div>
                     <input type="hidden" name="actionType" value="Add">
-                    <button type="submit" class="btn btn-primary" style="color: black;">Save</button>
+                    <button type="submit" class="btn btn-success">Save</button>
                 </form>
             </div>
         </div>
