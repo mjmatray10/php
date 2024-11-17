@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,7 +15,6 @@
     #dealer-records th {
       color: white;
     }
-    
     #dealer-records td {
       color: black;
     }
@@ -61,64 +61,60 @@
       border-radius: 25px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
       transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-  }
+    }
 
-  .animated-button:hover {
+    .animated-button:hover {
       transform: translateY(-5px);
       background-color: #218838;
       box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-  }
+    }
 
-  .animated-button:active {
+    .animated-button:active {
       transform: translateY(-2px);
       background-color: #1e7e34;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  }
-    
+    }
   </style>
 </head>
 <body>
-
-      <div class="content-container">
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;">
-    <div style="flex: 1; text-align: left;">
+  <div class="content-container">
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;">
+      <div style="flex: 1; text-align: left;">
         <h1>Dealers</h1>
-    </div>
-
-    <div style="flex: 1; text-align: center;">
+      </div>
+      <div style="flex: 1; text-align: center;">
         <a href="maps.php" class="animated-button">Find on Map</a>
+      </div>
+      <div style="flex: 1;"></div>
     </div>
 
-    <div style="flex: 1;"></div>
-</div>
+    <div>
+      <table id="dealer-records" class="display">
+        <thead>
+          <tr>
+            <th>Dealer Name</th>
+            <th>Oklahoma Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php
+          $results = selectDealers();
+          while ($row = $results->fetch_assoc()) {
+              echo "<tr>
+                      <td>" . htmlspecialchars($row['dealer_name']) . "</td>
+                      <td>" . htmlspecialchars($row['dealer_ok']) . "</td>
+                    </tr>";
+          }
+          ?>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<style>
-  <table id="dealer-records" class="display">
-    <thead>
-      <tr>
-        <th>Dealer Name</th>
-        <th>Oklahoma Location</th>
-      </tr>
-    </thead>
-    <tbody>
-      <?php
-      $results = selectDealers();
-      while ($row = $results->fetch_assoc()) {
-          echo "<tr>
-                  <td>" . $row['dealer_name'] . "</td>
-                  <td>" . $row['dealer_ok'] . "</td>
-                </tr>";
-      }
-      ?>
-    </tbody>
-  </table>
-</div>
-
-<script>
-  $(document).ready(function() {
-    $('#dealer-records').DataTable();
-  });
-</script>
-
+  <script>
+    $(document).ready(function() {
+      $('#dealer-records').DataTable();
+    });
+  </script>
 </body>
 </html>
