@@ -32,7 +32,7 @@ include "view-header.php";
     <h1>MIS-4013 Final Project</h1>
     <p>Welcome to the Bar G Tackle Co!</p>
     <div>
-      <img src="logo.png" style="display: flex; flex-direction: row; justify-content: center; align-items: center; height: 400px;">
+      <img src="logo.png" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 700px;">
     </div>
   </div>
 </body>
