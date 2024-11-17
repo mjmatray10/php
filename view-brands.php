@@ -5,7 +5,7 @@ $pageTitle = "Brands";
     <div class="content-container">
         <h1>Brands</h1>
         
-        <div class="col-auto mr-auto">
+        <div class="col-auto" style="display: flex; flex-direction: row; justify-content: right; align-items: center;">
             <?php
             include "view-brands-newform.php";
             ?>
@@ -19,7 +19,6 @@ $pageTitle = "Brands";
                         <th>ID</th>
                         <th>Name</th>
                         <th>Origin</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
