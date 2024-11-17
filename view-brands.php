@@ -19,6 +19,9 @@ $pageTitle = "Brands";
                         <th>ID</th>
                         <th>Name</th>
                         <th>Origin</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
