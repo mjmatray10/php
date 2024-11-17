@@ -54,8 +54,10 @@
 <body>
 
       <div class="content-container">
-<div>
-  <h1>Dealers</h1>
+<div style="display: flex; flex-direction: row;">
+    <div><h1>Dealers</h1></div>
+    <div></div>
+    <div></div>
 </div>
   <table id="dealer-records" class="display">
     <thead>
