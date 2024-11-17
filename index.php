@@ -17,14 +17,14 @@ include "view-header.php";
         padding: 0;
       }
       .content-container {
-        background-color: #3d4349;
-        padding: 20px;
-        border-radius: 10px;
-        max-width: 1200px;
-        margin: 20px auto;
-        color: #f8f9fa;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      }
+      background-color: rgba(61, 67, 73, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 1200px;
+      margin: 20px auto;
+      color: #f8f9fa;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
   </style>
 </head>
 <body>
