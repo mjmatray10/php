@@ -2,10 +2,10 @@
 $pageTitle = "Brands";
 ?>
 <body>
-    <div class="content-container d-flex">
+    <div class="content-container">
         <h1>Brands</h1>
         
-        <div class="col-auto ml-auto">
+        <div class="col-auto mr-auto">
             <?php
             include "view-brands-newform.php";
             ?>
