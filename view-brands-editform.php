@@ -24,7 +24,7 @@
           </div>
             <input type="hidden" name = "bid" value="<?php echo $brand['brand_id']; ?>">
             <input type = "hidden" name = "actionType" value = "Edit">
-          <button type="submit" class="btn btn-primary">Save</button>
+          <button type="submit" class="btn btn-success">Save</button>
         </form>
       </div>
     </div>
