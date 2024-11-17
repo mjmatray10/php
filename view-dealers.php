@@ -9,27 +9,29 @@
 </head>
 <body>
 
-<h1>Dealers</h1>
+<div class="content-container">
+  <h1>Dealers</h1>
 
-<table id="dealer-records" class="display">
-  <thead>
-    <tr>
-      <th>Dealer Name</th>
-      <th>Oklahoma Location</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?php
-    $results = selectDealers();
-    while ($row = $results->fetch_assoc()) {
-        echo "<tr>
-                <td>" . $row['dealer_name'] . "</td>
-                <td>" . $row['dealer_ok'] . "</td>
-              </tr>";
-    }
-    ?>
-  </tbody>
-</table>
+  <table id="dealer-records" class="display">
+    <thead>
+      <tr>
+        <th>Dealer Name</th>
+        <th>Oklahoma Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php
+      $results = selectDealers();
+      while ($row = $results->fetch_assoc()) {
+          echo "<tr>
+                  <td>" . $row['dealer_name'] . "</td>
+                  <td>" . $row['dealer_ok'] . "</td>
+                </tr>";
+      }
+      ?>
+    </tbody>
+  </table>
+</div>
 
 <script>
   $(document).ready(function() {
