@@ -28,7 +28,7 @@ $pageTitle = "CEOs";
                     <?php
                     while ($ceo = $ceos->fetch_assoc()) {
                     ?>
-                        <tr>
+                        <tr style="vertical-align: middle;">
                             <td><?= htmlspecialchars($ceo['ceo_id']); ?></td>
                             <td><?= htmlspecialchars($ceo['ceo_name']); ?></td>
                             <td><?= htmlspecialchars($ceo['ceo_age']); ?></td>
