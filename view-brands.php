@@ -52,11 +52,11 @@ include "view-header.php";
     <div class="table-responsive">
       <table class="table table-striped">
         <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Origin</th>
-            <th></th>
+           <tr style="color: white;">
+              <th>ID</th>
+              <th>Name</th>
+              <th>Origin</th>
+              <th></th>
           </tr>
         </thead>
         <tbody>
