@@ -53,9 +53,10 @@
 </head>
 <body>
 
-<div class="content-container">
+      <div class="content-container">
+<div>
   <h1>Dealers</h1>
-
+</div>
   <table id="dealer-records" class="display">
     <thead>
       <tr>
