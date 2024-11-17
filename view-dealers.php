@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div class="content-container">
+<div class="content-container2">
   <h1>Dealers</h1>
 
   <table id="dealer-records" class="display">
