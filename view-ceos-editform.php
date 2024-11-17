@@ -20,7 +20,7 @@
           </div>
           <div class="mb-3">
             <label for="cAge<?php echo $ceo['ceo_id']; ?>" class="form-label">CEO Age</label>
-            <input type="text" class="form-control" id="cName<?php echo $ceo['ceo_id']; ?>" name = "cAge" value="<?php echo $ceo['ceo_Age']; ?>">
+            <input type="text" class="form-control" id="cAge<?php echo $ceo['ceo_id']; ?>" name = "cAge" value="<?php echo $ceo['ceo_age']; ?>">
           </div>
           <div class="mb-3">
             <label for="cbrandid<?php echo $ceo['ceo_id']; ?>" class="form-label">CEO Brand ID</label>
