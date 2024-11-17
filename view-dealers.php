@@ -93,7 +93,7 @@
         <thead>
           <tr>
             <th>Dealer Name</th>
-            <th>Oklahoma Location</th>
+            <th>Oklahoma Location?</th>
           </tr>
         </thead>
         <tbody>
