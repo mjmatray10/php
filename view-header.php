@@ -66,10 +66,10 @@
                     <a class="nav-link" href="brands.php">Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dealers.php">Dealers</a>
+                    <a class="nav-link" href="ceos.php">CEOs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="spinning.php">Spinning Reels</a>
+                    <a class="nav-link" href="dealers.php">Dealers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
