@@ -6,15 +6,24 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+  <style>
+    #dealer-records {
+      color: black;
+    }
+    #dealer-records th, #dealer-records td {
+      color: black;
+    }
+  </style>
 </head>
 <body>
 
 <div class="content-container">
   <h1>Dealers</h1>
 
-  <table id="dealer-records" class="display" style="color: black;">
+  <table id="dealer-records" class="display">
     <thead>
-      <tr style="color: black;">
+      <tr>
         <th>Dealer Name</th>
         <th>Oklahoma Location</th>
       </tr>
