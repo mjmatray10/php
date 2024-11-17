@@ -72,7 +72,7 @@
                       <a class="nav-link" href="dealers.php">Dealers</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="contact.php">Contact</a>
+                      <a class="nav-link" href="brands-with-products.php">Products</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="about.php">About Us</a>
