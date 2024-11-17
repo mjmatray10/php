@@ -33,6 +33,6 @@ if (isset($_POST['actionType'])) {
 
 
 $ceos = selectCeos();
-include "view-brands.php";
+include "view-ceos.php";
 include "view-footer.php";
 ?>
