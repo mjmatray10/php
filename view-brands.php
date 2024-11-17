@@ -38,8 +38,8 @@ $pageTitle = "Brands";
                                 include "view-brands-editform.php";
                                 ?>
                             </td>
-                            <td style="display: flex; align-items: center; justify-content: center; height: 100%;">
-    <form method="post" action="">
+                            <td style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 0;">
+    <form method="post" action="" style="display: flex; align-items: center; justify-content: center;">
         <input type="hidden" name="bid" value="<?= htmlspecialchars($brand['brand_id']); ?>">
         <input type="hidden" name="actionType" value="Delete">
         <button type="submit" class="btn btn-danger btn-sm" style="width: 40px; height: 40px;" onclick="return confirm('Are you sure?');">
