@@ -17,7 +17,7 @@ include "view-header.php";
         padding: 0;
       }
       .content-container {
-      background-color: rgba(61, 67, 73, 0.8);
+      background-color: rgba(61, 67, 73, 0.7);
       padding: 20px;
       border-radius: 10px;
       max-width: 1200px;
