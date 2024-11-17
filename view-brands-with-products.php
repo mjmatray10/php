@@ -46,7 +46,11 @@ while ($brand = $brands->fetch_assoc()) {
       ?>
       </ul>
       </p>
-      <p class="card-text"><small class="text-body-secondary">Dealer in Oklahoma: <?php echo $dealer['dealer_ok']; ?></small></p>
+      <?php
+        $dealers = selectBrandsByProducts($brand['brand_id']);
+        while ($product = $products->fetch_assoc()) {
+      ?>
+      <p class="card-text"><small class="text-body-secondary">Brand Origin: <?php echo $brand['brand_origin']; ?></small></p>
     </div>
   </div>
 <?php
