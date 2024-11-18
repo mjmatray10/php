@@ -43,7 +43,7 @@ $pageTitle = "Dealer Locations";
                     }
                 });
             }, delay);
-            delay += 500;
+            delay += 2000;
         });
     </script>
 
