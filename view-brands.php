@@ -28,7 +28,7 @@ $pageTitle = "Brands";
                     <?php
                     while ($brand = $brands->fetch_assoc()) {
                     ?>
-                        <tr style="padding: 0;">
+                        <tr style="padding: 0; vertical-align: middle;">
                             <td><?= htmlspecialchars($brand['brand_id']); ?></td>
                             <td><?= htmlspecialchars($brand['brand_name']); ?></td>
                             <td><?= htmlspecialchars($brand['brand_origin']); ?></td>
@@ -38,6 +38,8 @@ $pageTitle = "Brands";
                                 include "view-brands-editform.php";
                                 ?>
                             </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <form method="post" action="">
                                     <input type="hidden" name="bid" value="<?= htmlspecialchars($brand['brand_id']); ?>">
