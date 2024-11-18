@@ -8,11 +8,19 @@
     </div>
   </div>
 
-  <div class="card-group">
-    <?php
-    while ($brand = $brands->fetch_assoc()) {
+  <?php
+  $counter = 0;
+  while ($brand = $brands->fetch_assoc()) {
+    if ($counter % 3 == 0) {
+      if ($counter > 0) {
+        echo '</div>';
+      }
+      echo '<div class="row mb-4">';
+    }
     ?>
-      <div class="card">
+
+    <div class="col-md-4">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title"><?php echo $brand['brand_name']; ?></h5>
           <p class="card-text">
@@ -48,8 +56,13 @@
           <p class="card-text"><small class="text-body-secondary">Brand Origin: <?php echo $brand['brand_origin']; ?></small></p>
         </div>
       </div>
+    </div>
+
     <?php
-    }
-    ?>
-  </div>
+    $counter++;
+  }
+  if ($counter > 0) {
+    echo '</div>';
+  }
+  ?>
 </div>
