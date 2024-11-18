@@ -11,7 +11,7 @@
   <?php
   $counter = 0;
   while ($brand = $brands->fetch_assoc()) {
-    if ($counter % 3 == 0) {
+    if ($counter % 4 == 0) {
       if ($counter > 0) {
         echo '</div>';
       }
