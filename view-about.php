@@ -5,7 +5,7 @@ $pageTitle = "About Us";
     <div class="content-container">
         <h1>About Us</h1>
         </br>
-        <video id="my-video" style="width: 1100px; height: 600px; justify-content: center; align-items: center;" class="video-js vjs-default-skin" controls>
+        <video id="my-video" style="width: 1100px; height: 600px; justify-content: center; align-items: center;" class="video-js vjs-default-skin" controls autoplay loop>
             <source src="about-us.mp4" type="video/mp4">
             Your browser does not support video.
         </video>
