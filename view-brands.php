@@ -28,7 +28,7 @@ $pageTitle = "Brands";
                     <?php
                     while ($brand = $brands->fetch_assoc()) {
                     ?>
-                        <tr style="vertical-align: middle;">
+                        <tr style="padding: 0;">
                             <td><?= htmlspecialchars($brand['brand_id']); ?></td>
                             <td><?= htmlspecialchars($brand['brand_name']); ?></td>
                             <td><?= htmlspecialchars($brand['brand_origin']); ?></td>
