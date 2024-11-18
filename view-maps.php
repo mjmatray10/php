@@ -27,18 +27,23 @@ $pageTitle = "Dealer Locations";
         ?>
         ];
 
-        dealers.forEach(dealer => {
-            fetch(`https://nominatim.openstreetmap.org/search?q=${dealer.location}&format=json`)
-            .then(response => response.json())
-            .then(data => {
-                if (data[0]) {
-                    const lat = data[0].lat;
-                    const lon = data[0].lon;
-                    L.marker([lat, lon]).addTo(map)
-                        .bindPopup(`<b>${dealer.name}</b><br>${dealer.location}`)
-                        .openPopup();
-                }
-            });
+        let delay = 0;
+
+        dealers.forEach((dealer, index) => {
+            setTimeout(() => {
+                fetch(`https://nominatim.openstreetmap.org/search?q=${dealer.location}&format=json`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data[0]) {
+                        const lat = data[0].lat;
+                        const lon = data[0].lon;
+                        L.marker([lat, lon]).addTo(map)
+                            .bindPopup(`<b>${dealer.name}</b><br>${dealer.location}`)
+                            .openPopup();
+                    }
+                });
+            }, delay);
+            delay += 500;
         });
     </script>
 
